@@ -9,13 +9,13 @@ let package = Package(
     products: [
         .library(
             name: "DaroWrapper",
-            targets: ["DaroBundle"]
+            targets: ["Daro"]
         ),
     ],
     targets: [
         .binaryTarget(
-            name: "DaroBundle",
-            path: "./Frameworks/DaroBundle.xcframework"
+            name: "Daro",
+            path: "./Frameworks/Daro.xcframework"
         )
     ]
 )

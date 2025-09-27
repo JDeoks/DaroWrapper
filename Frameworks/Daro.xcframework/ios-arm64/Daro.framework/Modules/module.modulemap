@@ -1,0 +1,4 @@
+framework module Daro {
+  header "Daro-Swift.h"
+  requires objc
+}
